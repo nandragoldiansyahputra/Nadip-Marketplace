@@ -337,7 +337,6 @@ $query = mysqli_query(
 
             ?>
 
-
             <div class="order-card">
 
                 <div class="order-header">
@@ -352,7 +351,6 @@ $query = mysqli_query(
 
                 </div>
 
-
                 <div class="order-info">
 
                     <div class="info-box">
@@ -365,7 +363,6 @@ $query = mysqli_query(
 
                     </div>
 
-
                     <div class="info-box">
 
                         <h4>📱 Nomor HP</h4>
@@ -375,7 +372,6 @@ $query = mysqli_query(
                         </p>
 
                     </div>
-
 
                     <div class="info-box">
 
@@ -389,13 +385,12 @@ $query = mysqli_query(
 
                     </div>
 
-
                     <div class="info-box">
 
                         <h4>🚚 Status Pesanan</h4>
 
                         <p>
-
+                            
                             <span class="status <?= $status_class; ?>">
                                 <?= htmlspecialchars($status); ?>
                             </span>
@@ -431,12 +426,9 @@ $query = mysqli_query(
 
             </div>
 
-
         <?php endwhile; ?>
 
-
     <?php else: ?>
-
 
         <div class="empty">
 
